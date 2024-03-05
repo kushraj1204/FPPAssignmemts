@@ -6,7 +6,7 @@ package Program5;
 public class Main {
     public static void main(String[] args) {
         Computer computer1 = new Computer("HP", "Intel Core i7", 16, 3.4);
-        Computer computer2 = new Computer("Dell", "AMD Ryzen 5", 8, 2.6);
+        Computer computer2 = new Computer("Dell", "AMD Ryzen 5", 12, 2.6);
         Computer computer3 = new Computer("Dell", "AMD Ryzen 5", 8, 2.6);
 
         System.out.println("Are computer1 and computer2 equal? " + computer1.equals(computer2));

@@ -46,10 +46,10 @@ public class Computer {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Computer computer = (Computer) o;
-        return ramSize == computer.ramSize &&
-                Double.compare(computer.processorSpeed, processorSpeed) == 0 &&
-                Objects.equals(manufacturer, computer.manufacturer) &&
-                Objects.equals(processor, computer.processor);
+        return ramSize == computer.ramSize
+                && Double.compare(computer.processorSpeed, processorSpeed) == 0
+                && Objects.equals(manufacturer, computer.manufacturer)
+                && Objects.equals(processor, computer.processor);
     }
 
     @Override
